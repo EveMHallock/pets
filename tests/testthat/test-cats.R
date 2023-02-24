@@ -12,3 +12,11 @@ test_that("logical operators work", {
 })
 
 test()
+
+
+devtools::install_github("EveMHallock/pets")
+
+## but {remotes} is the newer package with the function
+remotes::install_github("EveMHallock/pets")
+
+use_readme_rmd()
